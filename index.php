@@ -20,7 +20,5 @@ if (!empty($_GET['page'])) {
 // Include $page 
 include("./pages/$page.php"); 
 
-
-
 require("./template/footer.php");
 ?>
